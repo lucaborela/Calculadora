@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-{{ $ valor1 } } + {{ $ valor2 } } = {{ $ resultado } }  
+   O resultado foi = {{$resultado}}
+         
 </body>
 </html>

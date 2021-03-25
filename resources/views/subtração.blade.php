@@ -7,7 +7,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
-<link href = "https://fonts.googleapis.com/css2? family = Noto + Sans + HK: wght @ 700 & display = swap "rel =" stylesheet ">
+    <link href = "https://fonts.googleapis.com/css2? family = Noto + Sans + HK: wght @ 700 & display = swap "rel =" stylesheet ">
 </head>
 <style> 
 body{
@@ -15,18 +15,17 @@ body{
 }
 </style>
 <body>
-    <div class="container" >
+<div class="container" >
       
-        <div class="row mt-5">
-         
-           </div>
-           <a class="btn btn-primary btn-sm" href="telainicial" role="button">Tela inicial</a>
-
-       <div class="row mt-2">
-        <H1>Soma</H1>
+       <div class="row mt-5">
+        
+          </div>
+          <a class="btn btn-primary btn-sm" href="telainicial" role="button">Tela inicial</a>
+       <div class="row mt-3">
+        <H1>Subtração</H1>
         <div class="row">
 
-        <form method="POST" action ="{{route ('somar')}}" >
+        <form method="POST" action ="{{route ('subtrair')}}" >
          @csrf
 
 
@@ -42,7 +41,7 @@ body{
   </div>
  
   
-  <button type="submit" class="btn btn-primary">Somar</button>
+  <button type="submit" class="btn btn-primary">subtrair</button>
 </form>
         
 
@@ -50,7 +49,7 @@ body{
         
            </div>
          <div class="row mt-12">
-          Todos os direitos reservados - Luca Abreu Borela, 2021.
+            Todos os direitos reservados - Luca Abreu Borela , 2021.
            </div>
 
 
